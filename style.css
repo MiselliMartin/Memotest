@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+  }
+
+html body{
+  height: 100vh;
+}
+
+body{
+  background-image: url('img/color-degradado-fondos-degradados-multicolor-51200.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1{
+    display: inline;
+    text-transform: uppercase;
+    font-size: xxx-large;
+}
+
+header{
+  background-image: url('img/colorful-gradient-123-wallpaper-1280x800_3.jpg');
+  background-size: cover;
+  color: white;
+}
+
+#opciones{
+    display: flex;
+    justify-content: center;
+}
+
+main h2{
+  margin-bottom: 50px;
+}
+
+main h3{
+  margin-bottom: 30px;
+}
+
+.op{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.op img{
+    height: 300px;
+    width: 300px;
+}
+
+footer{
+    text-align: center;
+    background-image: url('img/colorful-gradient-123-wallpaper-1280x800_3.jpg');
+    background-size: cover;
+    color: white;
+    padding: 10px;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+a img:hover {
+  transform: scale(1.1);
+}
+

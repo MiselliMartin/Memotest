@@ -1,2 +1,2 @@
-# Memotest
-3 different memotest games, whit diferent topics.
+# HPTest
+Memotest basado en Harry Potter
