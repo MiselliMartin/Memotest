@@ -11,8 +11,8 @@ html body{
 }
 
 body{
-  background-image: url('img/color-degradado-fondos-degradados-multicolor-51200.jpg');
-  background-size: cover;
+  background: linear-gradient(to bottom left, #2196F3, #00BCD4, #c4c7a1, #d381c5, #cc47b6);
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -57,7 +57,6 @@ main h3{
 footer{
     text-align: center;
     background-image: url('img/colorful-gradient-123-wallpaper-1280x800_3.jpg');
-    background-size: cover;
     color: white;
     padding: 10px;
 }
@@ -71,3 +70,8 @@ a img:hover {
   transform: scale(1.1);
 }
 
+@media (max-width: 1000px) {
+  #opciones{
+    flex-direction: column;
+  }
+}
