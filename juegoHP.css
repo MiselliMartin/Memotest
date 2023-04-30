@@ -89,6 +89,10 @@ header{
   border: 2px solid black;
 }
 
+button {
+    cursor: pointer;
+}
+
 #start {
   width: 150px;
   background-color: red;
@@ -123,6 +127,7 @@ header{
 
 #stop:active {
   background-color: red;
+    
 }
 
 #restart {
